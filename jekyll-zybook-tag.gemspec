@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-zybook-tag"
-  spec.version       = "0.1.0"
+  spec.version       = "0.1.2"
   spec.authors       = ["Albert Lionelle"]
   spec.email         = ["Albert.Lionelle@colostate.edu"]
 
@@ -12,9 +12,9 @@ Gem::Specification.new do |spec|
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(jekyll-zybook-tag|LICENSE|README)!i) }
 
-  spec.add_runtime_dependency "jekyll", "~> 3.8"
+  spec.add_runtime_dependency "jekyll"
 
-  spec.add_development_dependency "bundler", "~> 2.0"
-  spec.add_development_dependency "rake", "~> 12.0"
+  spec.add_development_dependency "bundler"
+  spec.add_development_dependency "rake"
 
 end
